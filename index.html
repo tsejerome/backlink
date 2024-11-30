@@ -7,13 +7,19 @@
   <title>My Backlink Page</title>
   <style>
     /* Add a gradient background */
+    html,
     body {
+      height: 100%;
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+      background-color: #000;
+      background-size: contain;
+      background-image: url(https://wallpapers.com/images/hd/star-space-2000-x-1125-2aviccf1r71gqw5b.jpg);
+      background-repeat: repeat;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
 
     a {
@@ -25,19 +31,26 @@
     a:hover {
       text-decoration: underline;
     }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
   </style>
 </head>
 
 <body>
-  <h1>Welcome to tsejero.me's Cloudflare Backlink Page</h1>
-  <p>This is a simple page to test Cloudflare's backlink feature with explicit dofollow links.</p>
-  <p>Check out these amazing websites:</p>
-  <ul>
-    <li><a href="https://voicerecorder.ai" target="_blank" rel="dofollow">Voice Recorder AI</a></li>
-    <li><a href="https://jupitrr.ai" target="_blank" rel="dofollow">Jupitrr AI</a></li>
-    <li><a href="https://tsejero.me" target="_blank" rel="dofollow">My awesome personal webpage</a></li>
-    <li><a href="https://torontoeventsweekly.ca" target="_blank" rel="dofollow">Events newsletter in Toronto</a></li>
-  </ul>
+  <div style="background-color: white; border-radius: 15px; padding: 20px; display: inline-block;">
+    <h1>Welcome to tsejero.me's Cloudflare Backlink Page</h1>
+    <p>This is a simple page to test Cloudflare's backlink feature with explicit dofollow links.</p>
+    <p>Check out these amazing websites:</p>
+    <ul>
+      <li><a href="https://voicerecorder.ai" target="_blank" rel="dofollow">Voice Recorder AI</a></li>
+      <li><a href="https://jupitrr.ai" target="_blank" rel="dofollow">Jupitrr AI</a></li>
+      <li><a href="https://tsejero.me" target="_blank" rel="dofollow">My awesome personal webpage</a></li>
+      <li><a href="https://torontoeventsweekly.ca" target="_blank" rel="dofollow">Events newsletter in Toronto</a></li>
+    </ul>
+  </div>
 </body>
 
 </html>
