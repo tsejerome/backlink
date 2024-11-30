@@ -5,17 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Backlink Page</title>
+  <style>
+    /* Add a gradient background */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a {
+      color: #ffe400;
+      /* Highlight the links */
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Welcome to tsejero.me's Cloudflare Backlink Page</h1>
-  <p>This is a simple page to test Cloudflare's backlink feature.</p>
-  <p>Check out these amazing website:
-    <a href="https://voicerecorder.ai" target="_blank">Voice Recorder AI</a>
-    <a href="https://jupitrr.ai" target="_blank">Jupitrr AI</a>
-    <a href="https://tsejero.me" target="_blank">My awesome personal webpage</a>
-    <a href="https://torontoeventsweekly.ca" target="_blank">Events newsletter in Toronto</a>
-  </p>
+  <p>This is a simple page to test Cloudflare's backlink feature with explicit dofollow links.</p>
+  <p>Check out these amazing websites:</p>
+  <ul>
+    <li><a href="https://voicerecorder.ai" target="_blank" rel="dofollow">Voice Recorder AI</a></li>
+    <li><a href="https://jupitrr.ai" target="_blank" rel="dofollow">Jupitrr AI</a></li>
+    <li><a href="https://tsejero.me" target="_blank" rel="dofollow">My awesome personal webpage</a></li>
+    <li><a href="https://torontoeventsweekly.ca" target="_blank" rel="dofollow">Events newsletter in Toronto</a></li>
+  </ul>
 </body>
 
 </html>
